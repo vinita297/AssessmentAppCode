@@ -18,6 +18,25 @@ function SignupScreen(props: SectionProps): React.JSX.Element {
     } else if (password !== Cpassword) {
       Alert.alert('Password and confirm password should be the same');
     } else {
+      // let d = {email: email, password: password};
+      // console.log('ll', JSON.stringify(d));
+
+      // fetch(`http://192.168.117.94.:3000/signup`, {
+      //   method: 'POST',
+      //   headers: {
+      //     'Content-Type': 'application/json',
+      //   },
+      //   body: JSON.stringify(d),
+      // })
+      //   .then(res => {
+      //     console.log(res.json());
+      //   })
+      //   .then(data => {
+      //     console.log(data);
+      //   })
+      //   .catch(err => {
+      //     console.log(err);
+      //   });
       props.navigation.navigate('Login');
     }
   };

@@ -1522,6 +1522,11 @@
     "@nodelib/fs.scandir" "2.1.5"
     "fastq" "^1.6.0"
 
+"@react-native-camera-roll/camera-roll@^7.2.2":
+  "integrity" "sha512-imxzopalST7BCDRA1VNjlN8JUXiSenH201DX7u3Z2wc/5W9ctPDHkJVheJqdQRO4k0COvNpe3b3RV1zCs3FOrw=="
+  "resolved" "https://registry.npmjs.org/@react-native-camera-roll/camera-roll/-/camera-roll-7.2.2.tgz"
+  "version" "7.2.2"
+
 "@react-native-community/cli-clean@12.3.0":
   "integrity" "sha512-iAgLCOWYRGh9ukr+eVQnhkV/OqN3V2EGd/in33Ggn/Mj4uO6+oUncXFwB+yjlyaUNz6FfjudhIz09yYGSF+9sg=="
   "resolved" "https://registry.npmjs.org/@react-native-community/cli-clean/-/cli-clean-12.3.0.tgz"
@@ -5650,7 +5655,7 @@
     "react-freeze" "^1.0.0"
     "warn-once" "^0.1.0"
 
-"react-native@*", "react-native@0.73.1":
+"react-native@*", "react-native@>=0.59", "react-native@0.73.1":
   "integrity" "sha512-nLl9O2yKRh1nMXwsk4SUiD0ddd19RqlKgNU9AU8bTK/zD2xwnVOG56YK1/22SN67niWyoeG83vVg1eTk+S6ReA=="
   "resolved" "https://registry.npmjs.org/react-native/-/react-native-0.73.1.tgz"
   "version" "0.73.1"
